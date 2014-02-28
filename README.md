@@ -20,6 +20,17 @@ livereload(oj);
 oj.sourcePath = 'source';
 oj.buildPath = 'build';
 ```
+Also put the livereload script into you index.html:
+```
+<body>
+    ...
+    <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js"></' + 'script>')</script>
+</body>
+```
+This step will soon be automated and not needed to to manually.
+
+## Configuration
+
 A config object can be passed as a second parameter, taking the same options as [node-livereload](https://github.com/mnmly/node-livereload#options) does. Like so:
 ```
 livereload(oj, {
