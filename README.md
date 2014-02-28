@@ -27,6 +27,7 @@ livereload(oj, {
 
 * Automatically inject the livereload browser script in index.html
 * Automatically add available file extensions from the source folder for livereload to watch
+* Enable css to be injected live. The current integration doesn't support it.
 
 ## License
 
