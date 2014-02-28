@@ -8,7 +8,7 @@ It's not yet been published to the npm repo so for now just clone this repo and 
 
 ## Usage
 
-Just include the module from your ```ojfile```and pass the orangejuice object to it. A basic setup could look like this:
+Just include the module from your ```ojfile``` and pass the orangejuice object to it. A basic setup could look like this:
 ```
 #!/usr/bin/env node
 
