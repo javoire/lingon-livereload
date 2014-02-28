@@ -1,0 +1,13 @@
+{
+  "name": "orangejuice-livereload",
+  "author": "Jonatan Dahl",
+  "description": "Livereload for Orangejuice",
+  "version": "0.0.1",
+  "dependencies": {
+    "livereload": "git://github.com/mnmly/node-livereload.git"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": "*"
+  }
+}
