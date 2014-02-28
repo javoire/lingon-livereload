@@ -2,6 +2,10 @@
 
 This is a basic livereload plugin for [orangejuice](https://github.com/jpettersson/orangejuice). Based on [node-livereload](https://github.com/mnmly/node-livereload).
 
+## Installation
+
+It's not yet been published to the npm repo so for now just clone this repo and place it or link to it from your ```node_modules``` folder.
+
 ## Usage
 
 Just include the module from your ```ojfile```and pass the orangejuice object to it. A basic setup could look like this:
