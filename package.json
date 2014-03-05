@@ -1,17 +1,37 @@
 {
   "name": "orangejuice-livereload",
+  "description": "Livereload plugin for Orangejuice",
+  "version": "0.0.1",
+  "homepage": "https://github.com/javoire/orangejuice-livereload",
   "author": {
     "name": "Jonatan Dahl",
     "email": "dahl.jonatan@gmail.com",
     "url": "http://jonatandahl.me"
   },
-  "description": "Livereload plugin for Orangejuice",
-  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/javoire/orangejuice-livereload.git"
+  },
+  "bugs": {
+    "url": "https://github.com/javoire/orangejuice-livereload/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/javoire/orangejuice-livereload/blob/master/LICENSE-MIT"
+    }
+  ],
   "dependencies": {
     "livereload": "git://github.com/mnmly/node-livereload.git"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "orangejuice": "git://github.com:javoire/orangejuice-livereload.git"
+  },
   "engines": {
     "node": "*"
-  }
+  },
+  "keywords": [
+    "orangejuice",
+    "livereload"
+  ]
 }
