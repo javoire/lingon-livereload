@@ -25,7 +25,11 @@
     "livereload": "git://github.com/mnmly/node-livereload.git"
   },
   "devDependencies": {
-    "orangejuice": "git://github.com:javoire/orangejuice-livereload.git"
+    "orangejuice": "git://github.com:javoire/orangejuice-livereload.git",
+    "gulp": "~3.5.5",
+    "gulp-mocha": "~0.4.1",
+    "gulp-jshint": "~1.5.0",
+    "jshint-stylish": "~0.1.5"
   },
   "engines": {
     "node": "*"
