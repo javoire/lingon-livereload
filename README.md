@@ -7,7 +7,10 @@ This is a basic livereload plugin for [orangejuice](https://github.com/jpetterss
 
 ## Installation
 
-It's not yet been published to the npm repo so for now just clone this repo and place it or link to it from your ```node_modules``` folder.
+Install with npm
+```
+npm install orangejuice-livereload
+```
 
 ## Usage
 
