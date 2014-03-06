@@ -18,7 +18,7 @@ var jshintFail = function() {
 }
 
 gulp.task('jshint', function() {
-  return gulp.src('./lib/*')
+  return gulp.src(['./lib/*', './test/*'])
     .pipe(jshint('.jshintrc'))
     .pipe(jshint.reporter('jshint-stylish'))
     .pipe(jshint.reporter('fail')
@@ -28,7 +28,7 @@ gulp.task('jshint', function() {
 })
 
 gulp.task('mocha', function() {
-  return gulp.src('./test/*')
+  return gulp.src(['./lib/*', './test/*'])
     .pipe(mocha({reporter: 'spec'})
       .on('error', mochaFail)
     )
@@ -37,7 +37,7 @@ gulp.task('mocha', function() {
 
 gulp.task('watch', function() {
   watching = true; // CI fix
-  gulp.watch('./lib/*', ['jshint', 'mocha']);
+  gulp.watch(['./lib/*', './test/*'], ['jshint', 'mocha']);
 })
 
 gulp.task('default', ['jshint', 'mocha', 'watch']);

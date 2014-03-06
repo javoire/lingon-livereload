@@ -1,14 +1,17 @@
 {
-  "curly": true,
-  "eqeqeq": true,
-  "immed": true,
-  "latedef": "nofunc",
+  "globalstrict": true,
+  "quotmark": "single",
+  "nonbsp": true,
   "newcap": true,
-  "noarg": true,
-  "sub": true,
-  "undef": true,
+  "camelcase": true,
+  "curly": true,
+  "undef": false,
   "unused": true,
-  "boss": true,
-  "eqnull": true,
-  "node": true
+  "globals": {
+    "describe": false,
+    "it": false,
+    "module": false,
+    "process": false,
+    "require": false
+  }
 }
