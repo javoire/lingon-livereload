@@ -1,5 +1,8 @@
 # Orangejuice Livereload
 
+[![Build Status](https://travis-ci.org/javoire/orangejuice-livereload.png?branch=tests)](https://travis-ci.org/javoire/orangejuice-livereload)
+[![Dependency Status](https://david-dm.org/javoire/orangejuice-livereload.png)](https://david-dm.org/javoire/orangejuice-livereload)
+
 This is a basic livereload plugin for [orangejuice](https://github.com/jpettersson/orangejuice). Based on [node-livereload](https://github.com/mnmly/node-livereload).
 
 ## Installation
