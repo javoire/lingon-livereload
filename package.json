@@ -1,7 +1,7 @@
 {
   "name": "orangejuice-livereload",
   "description": "Livereload plugin for Orangejuice",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "homepage": "https://github.com/javoire/orangejuice-livereload",
   "author": {
     "name": "Jonatan Dahl",
