@@ -1,0 +1,17 @@
+{
+  "globalstrict": true,
+  "quotmark": "single",
+  "nonbsp": true,
+  "newcap": true,
+  "camelcase": true,
+  "curly": true,
+  "undef": false,
+  "unused": true,
+  "globals": {
+    "describe": false,
+    "it": false,
+    "module": false,
+    "process": false,
+    "require": false
+  }
+}
