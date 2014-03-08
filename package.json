@@ -25,7 +25,8 @@
     "test": "mocha"
   },
   "dependencies": {
-    "livereload": "git://github.com/mnmly/node-livereload.git"
+    "livereload": "git://github.com/mnmly/node-livereload.git",
+    "connect-livereload": "~0.3.2"
   },
   "devDependencies": {
     "orangejuice": "git://github.com/jpettersson/orangejuice.git",
