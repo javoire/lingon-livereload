@@ -26,7 +26,7 @@
   },
   "dependencies": {
     "livereload": "git://github.com/mnmly/node-livereload.git",
-    "connect-livereload-safe": "0.0.5"
+    "connect-livereload": "*"
   },
   "devDependencies": {
     "orangejuice": "git://github.com/jpettersson/orangejuice.git",
