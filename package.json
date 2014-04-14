@@ -1,7 +1,7 @@
 {
   "name": "lingon-livereload",
   "description": "Livereload plugin for Lingon",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "homepage": "https://github.com/javoire/lingon-livereload",
   "author": {
     "name": "Jonatan Dahl",
@@ -25,7 +25,7 @@
     "test": "mocha"
   },
   "dependencies": {
-    "livereload": "git://github.com/mnmly/node-livereload.git",
+    "livereload": "git://github.com/napcs/node-livereload.git",
     "connect-livereload": "*"
   },
   "devDependencies": {
