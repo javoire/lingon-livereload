@@ -1,10 +1,10 @@
 'use strict';
 
-var oj = require('orangejuice'),
-    livereload = require('../lib/orangejuice-livereload');
+var lingon = require('lingon'),
+    livereload = require('../lib/lingon-livereload');
 
-describe('orangejuice-livereload', function() {
+describe('lingon-livereload', function() {
   it('should init', function() {
-    livereload(oj);
+    livereload(lingon);
   });
 });

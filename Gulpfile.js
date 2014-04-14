@@ -13,7 +13,7 @@ gulp.task('jshint', function() {
     .on('error', notify.onError('<%= error.message %>'));
 })
 
-gulp.task('mocha', function() {
+gulp.task('test', function() {
   return gulp.src(['./lib/*', './test/*'])
     .pipe(mocha({reporter: 'spec'})
       .on('error', function() { this.emit('end') })
@@ -22,7 +22,7 @@ gulp.task('mocha', function() {
 })
 
 gulp.task('watch', function() {
-  gulp.watch(['./lib/*', './test/*'], ['jshint', 'mocha']);
+  gulp.watch(['./lib/*', './test/*'], ['jshint', 'test']);
 })
 
-gulp.task('default', ['jshint', 'mocha', 'watch']);
+gulp.task('default', ['jshint', 'test', 'watch']);
