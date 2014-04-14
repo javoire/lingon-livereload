@@ -1,7 +1,7 @@
 # Lingon Livereload
 
-[![Build Status](https://travis-ci.org/javoire/orangejuice-livereload.png?branch=tests)](https://travis-ci.org/javoire/lingon-livereload)
-[![Dependency Status](https://david-dm.org/javoire/orangejuice-livereload.png)](https://david-dm.org/javoire/lingon-livereload)
+[![Build Status](https://travis-ci.org/javoire/lingon-livereload.png?branch=tests)](https://travis-ci.org/javoire/lingon-livereload)
+[![Dependency Status](https://david-dm.org/javoire/lingon-livereload.png)](https://david-dm.org/javoire/lingon-livereload)
 
 This is a livereload plugin for [lingon](https://github.com/jpettersson/lingon). Based on [node-livereload](https://github.com/mnmly/node-livereload).
 
