@@ -26,7 +26,7 @@
   },
   "dependencies": {
     "livereload": "git://github.com/napcs/node-livereload.git",
-    "connect-livereload": "*"
+    "connect-livereload-safe": "~0.0.5"
   },
   "devDependencies": {
     "lingon": "git://github.com/jpettersson/lingon.git",
