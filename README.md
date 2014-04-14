@@ -37,7 +37,7 @@ This step will soon be automated and not needed to to manually.
 
 ## Configuration
 
-A config object can be passed as a second parameter, taking the same options as [node-livereload](https://github.com/mnmly/node-livereload#options) does. Like so:
+A config object can be passed as a second parameter, taking the same options as [node-livereload](https://github.com/napcs/node-livereload#api-options) does. Like so:
 ```JavaScript
 livereload(lingon, {
   exts: ['scss', 'coffee']
