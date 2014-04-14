@@ -25,7 +25,7 @@
     "test": "mocha"
   },
   "dependencies": {
-    "livereload": "git://github.com/mnmly/node-livereload.git"
+    "livereload": "git://github.com/napcs/node-livereload.git"
   },
   "devDependencies": {
     "lingon": "git://github.com/jpettersson/lingon.git",
