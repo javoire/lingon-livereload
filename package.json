@@ -1,8 +1,8 @@
 {
-  "name": "orangejuice-livereload",
-  "description": "Livereload plugin for Orangejuice",
+  "name": "lingon-livereload",
+  "description": "Livereload plugin for Lingon",
   "version": "0.1.0",
-  "homepage": "https://github.com/javoire/orangejuice-livereload",
+  "homepage": "https://github.com/javoire/lingon-livereload",
   "author": {
     "name": "Jonatan Dahl",
     "email": "dahl.jonatan@gmail.com",
@@ -10,15 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/javoire/orangejuice-livereload.git"
+    "url": "git://github.com/javoire/lingon-livereload.git"
   },
   "bugs": {
-    "url": "https://github.com/javoire/orangejuice-livereload/issues"
+    "url": "https://github.com/javoire/lingon-livereload/issues"
   },
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/javoire/orangejuice-livereload/blob/master/LICENSE-MIT"
+      "url": "https://github.com/javoire/lingon-livereload/blob/master/LICENSE-MIT"
     }
   ],
   "scripts": {
@@ -28,7 +28,7 @@
     "livereload": "git://github.com/mnmly/node-livereload.git"
   },
   "devDependencies": {
-    "orangejuice": "git://github.com/jpettersson/orangejuice.git",
+    "lingon": "git://github.com/jpettersson/lingon.git",
     "gulp": "~3.5.5",
     "gulp-mocha": "~0.4.1",
     "gulp-jshint": "~1.5.0",
@@ -39,7 +39,7 @@
     "node": "*"
   },
   "keywords": [
-    "orangejuice",
+    "lingon",
     "livereload"
   ]
 }

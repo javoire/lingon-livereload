@@ -1,1 +1,1 @@
-module.exports = require('./lib/orangejuice-livereload');
+module.exports = require('./lib/lingon-livereload');
