@@ -1,30 +1,30 @@
-# Orangejuice Livereload
+# Lingon Livereload
 
-[![Build Status](https://travis-ci.org/javoire/orangejuice-livereload.png?branch=tests)](https://travis-ci.org/javoire/orangejuice-livereload)
-[![Dependency Status](https://david-dm.org/javoire/orangejuice-livereload.png)](https://david-dm.org/javoire/orangejuice-livereload)
+[![Build Status](https://travis-ci.org/javoire/lingon-livereload.png?branch=tests)](https://travis-ci.org/javoire/lingon-livereload)
+[![Dependency Status](https://david-dm.org/javoire/lingon-livereload.png)](https://david-dm.org/javoire/lingon-livereload)
 
-This is a basic livereload plugin for [orangejuice](https://github.com/jpettersson/orangejuice). Based on [node-livereload](https://github.com/mnmly/node-livereload).
+This is a livereload plugin for [lingon](https://github.com/jpettersson/lingon). Based on [node-livereload](https://github.com/mnmly/node-livereload).
 
 ## Installation
 
 Install with npm
 ```
-npm install orangejuice-livereload
+npm install lingon-livereload
 ```
 
 ## Usage
 
-Just include the module from your ```ojfile``` and pass the orangejuice object to it. A basic setup could look like this:
+Just include the module from your ```lingon.js``` file and pass the lingon object to it. A basic setup could look like this:
 ```JavaScript
 #!/usr/bin/env node
 
-var oj = require('orangejuice'),
-    livereload = require('orangejuice-livereload');
+var lingon = require('lingon'),
+    livereload = require('lingon-livereload');
 
-livereload(oj);
+livereload(lingon);
 
-oj.sourcePath = 'source';
-oj.buildPath = 'build';
+lingon.sourcePath = 'source';
+lingon.buildPath = 'build';
 ```
 Also put the livereload script into you index.html:
 ```HTML
@@ -39,7 +39,7 @@ This step will soon be automated and not needed to to manually.
 
 A config object can be passed as a second parameter, taking the same options as [node-livereload](https://github.com/mnmly/node-livereload#options) does. Like so:
 ```JavaScript
-livereload(oj, {
+livereload(lingon, {
   exts: ['scss', 'coffee']
 });
 ```
