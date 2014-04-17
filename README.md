@@ -16,6 +16,8 @@ npm install lingon-livereload
 
 Just include the module from your ```lingon.js``` file and pass the lingon object to it. A basic setup could look like this:
 ```JavaScript
+// lingon.js
+
 #!/usr/bin/env node
 
 var lingon = require('lingon'),
