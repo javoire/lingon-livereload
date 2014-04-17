@@ -28,14 +28,7 @@ livereload(lingon);
 lingon.sourcePath = 'source';
 lingon.buildPath = 'build';
 ```
-Also put the livereload script into you index.html:
-```HTML
-<body>
-    ...
-    <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js"></' + 'script>')</script>
-</body>
-```
-This step will soon be automated and not needed to to manually.
+The ``<script>`` tag that communicates with the livereload server will be automatically injected before the closing ```</body>``` tag in your ``ìndex.html`` file.
 
 ## Configuration
 
