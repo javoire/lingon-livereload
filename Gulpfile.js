@@ -2,8 +2,7 @@
 
 var gulp = require('gulp'),
     jshint = require('gulp-jshint'),
-    mocha = require('gulp-mocha'),
-    notify = require('gulp-notify');
+    mocha = require('gulp-mocha');
 
 gulp.task('jshint', function() {
   return gulp.src(['./lib/*', './test/*'])
@@ -11,16 +10,14 @@ gulp.task('jshint', function() {
     .pipe(jshint.reporter('jshint-stylish'))
     .pipe(jshint.reporter('fail')
       .on('error', function() { this.emit('end'); })
-    )
-    .on('error', notify.onError('<%= error.message %>'));
+    );
 });
 
 gulp.task('test', function() {
   return gulp.src(['./lib/*', './test/*'])
     .pipe(mocha({reporter: 'spec'})
       .on('error', function() { this.emit('end'); })
-    )
-    .on('error', notify.onError('<%= error.message %>'));
+    );
 });
 
 gulp.task('watch', function() {

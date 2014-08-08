@@ -29,12 +29,11 @@
     "connect-livereload-safe": "~0.0.5"
   },
   "devDependencies": {
-    "lingon": "git://github.com/jpettersson/lingon.git",
-    "gulp": "~3.6.0",
-    "gulp-mocha": "~0.4.1",
+    "gulp": "^3.8.7",
     "gulp-jshint": "~1.5.0",
+    "gulp-mocha": "~0.4.1",
     "jshint-stylish": "~0.1.5",
-    "gulp-notify": "~1.0.0-beta"
+    "lingon": "git://github.com/jpettersson/lingon.git"
   },
   "engines": {
     "node": "*"
