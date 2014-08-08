@@ -8,8 +8,9 @@ This is a livereload plugin for [lingon](https://github.com/jpettersson/lingon).
 ## Installation
 
 Install with npm
+
 ```
-npm install lingon-livereload
+$ npm install lingon-livereload
 ```
 
 ## Usage
@@ -37,6 +38,18 @@ A config object can be passed as a second parameter, taking the same options as 
 livereload(lingon, {
   exts: ['scss', 'coffee']
 });
+```
+
+## Development
+
+Gulp for building, linting and testing etc.
+
+(optionally) Use [autoversion](https://github.com/jpettersson/autoversion) gem to update semver version number.
+
+```
+$ autoversion patch # 1.0.0 -> 1.0.1
+$ autoversion minor # 1.0.0 -> 1.1.0
+$ autoversion major # 1.0.0 -> 2.0.0
 ```
 
 ## Roadmap
