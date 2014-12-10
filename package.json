@@ -28,12 +28,14 @@
     "livereload": "git://github.com/napcs/node-livereload.git",
     "connect-livereload-safe": "~0.0.5"
   },
+  "peerDependencies": {
+    "lingon": "~2.1.4"
+  },
   "devDependencies": {
     "gulp": "^3.8.7",
     "gulp-jshint": "~1.5.0",
     "gulp-mocha": "~0.4.1",
-    "jshint-stylish": "~0.1.5",
-    "lingon": "^2.0.0"
+    "jshint-stylish": "~0.1.5"
   },
   "engines": {
     "node": "*"
