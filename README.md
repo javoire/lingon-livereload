@@ -10,7 +10,7 @@ This is a livereload plugin for [lingon](https://github.com/jpettersson/lingon).
 Install with npm
 
 ```
-$ npm install lingon-livereload
+$ npm install lingon-livereload --save-dev
 ```
 
 ## Usage
