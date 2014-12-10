@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.3.5
+
+* Add lingon as a devDependency
+
 ## 0.3.4
 
 * Watches all filetypes in the lingon `source/` folder by default
