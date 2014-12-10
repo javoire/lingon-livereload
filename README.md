@@ -55,7 +55,7 @@ $ autoversion major # 1.0.0 -> 2.0.0
 ## Roadmap
 
 * ~~Automatically inject the livereload browser script in index.html~~
-* Automatically add available file extensions from the source folder for livereload to watch for changes.
+* ~~Automatically add available file extensions from the source folder for livereload to watch for changes.~~
 * Enable css to be injected live. The current integration doesn't support it.
 
 ## License
