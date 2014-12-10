@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.3.7
+
+* Watch more filetypes by default
+
 ## 0.3.5
 
 * Add lingon as a devDependency
