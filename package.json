@@ -29,7 +29,7 @@
     "connect-livereload-safe": "~0.0.5"
   },
   "peerDependencies": {
-    "lingon": "~2.2.0"
+    "lingon": "^2.0.0"
   },
   "devDependencies": {
     "gulp": "^3.8.7",
