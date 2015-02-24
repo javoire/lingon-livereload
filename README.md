@@ -2,6 +2,7 @@
 
 [![Build Status](https://travis-ci.org/javoire/lingon-livereload.png?branch=tests)](https://travis-ci.org/javoire/lingon-livereload)
 [![Dependency Status](https://david-dm.org/javoire/lingon-livereload.png)](https://david-dm.org/javoire/lingon-livereload)
+[![npm](https://img.shields.io/npm/v/lingon-livereload.svg)]()
 
 This is a livereload plugin for [lingon](https://github.com/jpettersson/lingon). Based on [node-livereload](https://github.com/napcs/node-livereload).
 
