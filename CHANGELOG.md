@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.0
+
+* Stable
+
 ## 0.3.7
 
 * Watch more filetypes by default
