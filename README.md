@@ -26,9 +26,6 @@ var lingon = require('lingon'),
     livereload = require('lingon-livereload');
 
 livereload(lingon);
-
-lingon.sourcePath = 'source';
-lingon.buildPath = 'build';
 ```
 The ``<script>`` tag that communicates with the livereload server will be automatically injected before the closing ```</body>``` tag in your ``ìndex.html`` file.
 
