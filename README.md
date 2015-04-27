@@ -27,7 +27,7 @@ var lingon = require('lingon'),
 
 livereload(lingon);
 ```
-The ``<script>`` tag that communicates with the livereload server will be automatically injected before the closing ```</body>``` tag in your ``ìndex.html`` file.
+The ``<script>`` tag that communicates with the livereload server will be automatically injected before the closing ```</body>``` tag in your ``index.html`` file.
 
 ## Configuration
 
