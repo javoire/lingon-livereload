@@ -1,0 +1,109 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/jd/.nvm/v4.2.2/bin/node',
+1 verbose cli   '/Users/jd/.nvm/v4.2.2/bin/npm',
+1 verbose cli   'publish' ]
+2 info using npm@2.14.7
+3 info using node@v4.2.2
+4 verbose publish [ '.' ]
+5 silly cache add args [ '.', null ]
+6 verbose cache add spec .
+7 silly cache add parsed spec Result {
+7 silly cache add   raw: '.',
+7 silly cache add   scope: null,
+7 silly cache add   name: null,
+7 silly cache add   rawSpec: '.',
+7 silly cache add   spec: '/Users/jd/Projects/spotify/lingon-livereload',
+7 silly cache add   type: 'directory' }
+8 verbose addLocalDirectory /Users/jd/.npm/lingon-livereload/1.0.1/package.tgz not in flight; packing
+9 verbose tar pack [ '/Users/jd/.npm/lingon-livereload/1.0.1/package.tgz',
+9 verbose tar pack   '/Users/jd/Projects/spotify/lingon-livereload' ]
+10 verbose tarball /Users/jd/.npm/lingon-livereload/1.0.1/package.tgz
+11 verbose folder /Users/jd/Projects/spotify/lingon-livereload
+12 info prepublish lingon-livereload@1.0.1
+13 verbose addLocalTarball adding from inside cache /Users/jd/.npm/lingon-livereload/1.0.1/package.tgz
+14 silly cache afterAdd lingon-livereload@1.0.1
+15 verbose afterAdd /Users/jd/.npm/lingon-livereload/1.0.1/package/package.json not in flight; writing
+16 verbose afterAdd /Users/jd/.npm/lingon-livereload/1.0.1/package/package.json written
+17 silly publish { name: 'lingon-livereload',
+17 silly publish   description: 'Livereload plugin for Lingon',
+17 silly publish   version: '1.0.1',
+17 silly publish   homepage: 'https://github.com/javoire/lingon-livereload',
+17 silly publish   author:
+17 silly publish    { name: 'Jonatan Dahl',
+17 silly publish      email: 'dahl.jonatan@gmail.com',
+17 silly publish      url: 'http://jonatandahl.me' },
+17 silly publish   repository:
+17 silly publish    { type: 'git',
+17 silly publish      url: 'git://github.com/javoire/lingon-livereload.git' },
+17 silly publish   bugs: { url: 'https://github.com/javoire/lingon-livereload/issues' },
+17 silly publish   licenses:
+17 silly publish    [ { type: 'MIT',
+17 silly publish        url: 'https://github.com/javoire/lingon-livereload/blob/master/LICENSE-MIT' } ],
+17 silly publish   scripts: { test: 'mocha' },
+17 silly publish   dependencies:
+17 silly publish    { livereload: 'git://github.com/napcs/node-livereload.git',
+17 silly publish      'connect-livereload-safe': '~0.0.5' },
+17 silly publish   peerDependencies: { lingon: '^2.0.0' },
+17 silly publish   devDependencies:
+17 silly publish    { gulp: '^3.8.7',
+17 silly publish      'gulp-jshint': '~1.5.0',
+17 silly publish      'gulp-mocha': '~0.4.1',
+17 silly publish      'jshint-stylish': '~0.1.5',
+17 silly publish      lingon: '~2.1.4' },
+17 silly publish   engines: { node: '*' },
+17 silly publish   keywords: [ 'lingon', 'livereload' ],
+17 silly publish   readme: '# Lingon Livereload\n\n[![Build Status](https://travis-ci.org/javoire/lingon-livereload.png?branch=tests)](https://travis-ci.org/javoire/lingon-livereload)\n[![Dependency Status](https://david-dm.org/javoire/lingon-livereload.png)](https://david-dm.org/javoire/lingon-livereload)\n[![npm](https://img.shields.io/npm/v/lingon-livereload.svg)]()\n\nThis enables livereload for [lingon](https://github.com/jpettersson/lingon). Based on [node-livereload](https://github.com/napcs/node-livereload).\n\n## Installation\n\nInstall with npm\n\n```\n$ npm install lingon-livereload --save-dev\n```\n\n## Usage\n\nJust include the module from your ```lingon.js``` file and pass the lingon object to it. A basic setup could look like this:\n```JavaScript\n// lingon.js\n\n#!/usr/bin/env node\n\nvar lingon = require(\'lingon\'),\n    livereload = require(\'lingon-livereload\');\n\nlivereload(lingon);\n```\nThe ``<script>`` tag that communicates with the livereload server will be automatically injected before the closing ```</body>``` tag in your ``index.html`` file.\n\n## Configuration\n\nA config object can be passed as a second parameter, taking the same options as [node-livereload](https://github.com/napcs/node-livereload#api-options) does. Like so:\n```JavaScript\nlivereload(lingon, {\n  exts: [\'scss\', \'coffee\']\n});\n```\n\n## Development\n\nGulp for building, linting and testing etc.\n\n(optionally) Use [autoversion](https://github.com/jpettersson/autoversion) gem to update semver version number.\n\n```bash\n$ autoversion patch # 1.0.0 -> 1.0.1\n$ autoversion minor # 1.0.0 -> 1.1.0\n$ autoversion major # 1.0.0 -> 2.0.0\n```\n\n## Roadmap\n\n* ~~Automatically inject the livereload browser script in index.html~~\n* ~~Automatically add available file extensions from the source folder for livereload to watch for changes.~~\n* Enable css to be injected live. The current integration doesn\'t support it.\n\n## License\n\nLicensed under the MIT license.\n',
+17 silly publish   readmeFilename: 'README.md',
+17 silly publish   gitHead: '9333a3936fe1d215846b58f9ddffeaf98b9a1112',
+17 silly publish   _id: 'lingon-livereload@1.0.1',
+17 silly publish   _shasum: '7ee6df76583be1d71a8af14e07752acbf61711db',
+17 silly publish   _from: '.' }
+18 verbose getPublishConfig undefined
+19 silly mapToRegistry name lingon-livereload
+20 silly mapToRegistry using default registry
+21 silly mapToRegistry registry http://registry.npmjs.org/
+22 silly mapToRegistry uri http://registry.npmjs.org/lingon-livereload
+23 verbose publish registryBase http://registry.npmjs.org/
+24 silly publish uploading /Users/jd/.npm/lingon-livereload/1.0.1/package.tgz
+25 verbose request uri http://registry.npmjs.org/lingon-livereload
+26 verbose request sending authorization for write operation
+27 info attempt registry request try #1 at 10:55:25 AM
+28 verbose request id 9e008a2db6e494b7
+29 http request PUT http://registry.npmjs.org/lingon-livereload
+30 http 403 http://registry.npmjs.org/lingon-livereload
+31 verbose headers { 'content-type': 'application/json',
+31 verbose headers   'cache-control': 'max-age=300',
+31 verbose headers   'content-length': '95',
+31 verbose headers   'accept-ranges': 'bytes',
+31 verbose headers   date: 'Thu, 21 Jan 2016 09:55:27 GMT',
+31 verbose headers   via: '1.1 varnish',
+31 verbose headers   connection: 'keep-alive',
+31 verbose headers   'x-served-by': 'cache-lcy1121-LCY',
+31 verbose headers   'x-cache': 'MISS',
+31 verbose headers   'x-cache-hits': '0',
+31 verbose headers   'x-timer': 'S1453370125.828265,VS0,VE1561' }
+32 verbose request invalidating /Users/jd/.npm/registry.npmjs.org/lingon-livereload on PUT
+33 error publish Failed PUT 403
+34 verbose stack Error: "You cannot publish over the previously published version 1.0.1." : lingon-livereload
+34 verbose stack     at makeError (/Users/jd/.nvm/v4.2.2/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:264:12)
+34 verbose stack     at CachingRegistryClient.<anonymous> (/Users/jd/.nvm/v4.2.2/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:252:14)
+34 verbose stack     at Request._callback (/Users/jd/.nvm/v4.2.2/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:172:14)
+34 verbose stack     at Request.self.callback (/Users/jd/.nvm/v4.2.2/lib/node_modules/npm/node_modules/request/request.js:198:22)
+34 verbose stack     at emitTwo (events.js:87:13)
+34 verbose stack     at Request.emit (events.js:172:7)
+34 verbose stack     at Request.<anonymous> (/Users/jd/.nvm/v4.2.2/lib/node_modules/npm/node_modules/request/request.js:1063:14)
+34 verbose stack     at emitOne (events.js:82:20)
+34 verbose stack     at Request.emit (events.js:169:7)
+34 verbose stack     at IncomingMessage.<anonymous> (/Users/jd/.nvm/v4.2.2/lib/node_modules/npm/node_modules/request/request.js:1009:12)
+35 verbose statusCode 403
+36 verbose pkgid lingon-livereload
+37 verbose cwd /Users/jd/Projects/spotify/lingon-livereload
+38 error Darwin 14.5.0
+39 error argv "/Users/jd/.nvm/v4.2.2/bin/node" "/Users/jd/.nvm/v4.2.2/bin/npm" "publish"
+40 error node v4.2.2
+41 error npm  v2.14.7
+42 error code E403
+43 error "You cannot publish over the previously published version 1.0.1." : lingon-livereload
+44 error If you need help, you may report this error at:
+44 error     <https://github.com/npm/npm/issues>
+45 verbose exit [ 1, true ]
