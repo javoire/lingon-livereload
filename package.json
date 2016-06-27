@@ -1,7 +1,7 @@
 {
   "name": "lingon-livereload",
   "description": "Livereload plugin for Lingon",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "homepage": "https://github.com/javoire/lingon-livereload",
   "author": {
     "name": "Jonatan Dahl",
